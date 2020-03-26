@@ -38,7 +38,7 @@ export default function Details() {
   function sendWhatsapp() {
     Linking.openURL(
       `whatsapp://send?phone=${incident.whatsapp}&text=${message}`
-      // for Brazil, the number format should be 559________
+      // for Brazil, the number format should be 559(DDD)________
     );
   }
 
